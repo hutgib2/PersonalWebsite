@@ -2,12 +2,23 @@ body {
   background-color: rgb(0, 191, 255);
 }
 
-h1 {
-  color: rgb(1, 75, 98);
-  margin-left: 2px;
+a {
+  background-color: aquamarine;
 }
 
-p.Check Out {
-  color: darkred;
-  font-size: 14px;
+.HughJass {
+  background-color: blueviolet;
+}
+
+.headings {
+  font-size: 24px;
+}
+
+.subheadings {
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+}
+
+.navtext {
+  font-size: 10px;
 }
