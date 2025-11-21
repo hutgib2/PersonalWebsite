@@ -11,6 +11,7 @@ a {
 }
 
 .headings {
+  color: gold;
   font-size: 24px;
 }
 
@@ -21,4 +22,23 @@ a {
 
 .navtext {
   font-size: 10px;
+}
+
+.buttoncolor {
+  font-style: oblique;
+  color: white;
+  background-color: rgb(100, 100, 100);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+}
+
+.buttoncolor:hover {
+  background-color: yellow;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 1s;
 }
