@@ -16,7 +16,7 @@ a {
 }
 
 .subheadings {
-  color: rgb(50, 50, 50);
+  color: rgb(255, 0, 0);
   font-size: 16px;
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 .buttoncolor {
-  font-style: oblique;
+  font-family: Impact;
   color: white;
   background-color: rgb(100, 100, 100);
   padding-top: 5px;
