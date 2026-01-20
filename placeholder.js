@@ -13,7 +13,14 @@ const hugo_add = (add_1,add_2) => {
     return add_1+add_2
 }
 
-const answer = hugo_add(77,88)
+const new_hugo_add = (add_1,add_2) => {
+    add_1 = 4
+    add_2 = 5
+    add_3 = add_1+add_2
+}
+
+const answer = hugo_add(3,4)
+const new_answer = new_hugo_add(add_1, add_2, add_3)
 // conditional statements
 if (true) {
     console.log(hugo_add(1,1))
