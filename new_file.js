@@ -1,4 +1,13 @@
 console.log("omni-man is OP")
 console.log(67)
-const para = document.createElement("p");
-const node = document.createTextNode("This is a new paragraph.");
+
+const h1 = document.createElement("h1");
+h1.textContent = "Wazzup";
+document.body.appendChild(h1);
+
+const button = document.createElement("button");
+button.textContent = "Don't click this";
+button.className = "btnxyz";
+button.id = "myButton";
+
+document.body.append(button);
