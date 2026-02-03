@@ -1,28 +1,32 @@
-console.log("Neptune is Overpowered")
-var tutor = "Ronan"
-console.log(tutor)
-var tutor = "Eden"
-console.log(tutor)
-var num_1 = 68
-var num_2 = 21
-var num_3 = num_1*num_2
-console.log(num_3)
-const hugo_add = (add_1,add_2) => {
+// console.log("Neptune is Overpowered")
+// var tutor = "Ronan"
+// console.log(tutor)
+// var tutor = "Eden"
+// console.log(tutor)
+// var num_1 = 68
+// var num_2 = 21
+// var num_3 = num_1*num_2
+// console.log(num_3)
+const add = (add_1,add_2) => {
     // console.log("i am here")
     // console.log(`i have been told to add ${add_1}, and ${add_2}`)
     return add_1+add_2
 }
 
-const new_hugo_add = (add_1,add_2,add_3) => {
+const new_add = (add_1,add_2,add_3) => {
     return add_1+add_2+add_3
 }
 
-const answer = hugo_add(7,4)
-const new_answer = new_hugo_add(3,2,1)
-// conditional statements
-if (true) {
-    console.log(hugo_add(1,1))
-    console.log(new_answer)
+const super_add = (add_1,add_2,add_3,add_4) => {
+    return add_1+add_2+add_3+add_4
+}
+
+const mega_add = (add_1,add_2,add_3,add_4, add_5) => {
+    return add_1+add_2+add_3+add_4+add_5
+}
+
+const ultra_add = (add_1,add_2,add_3,add_4, add_5, add_6) => {
+    return add_1+add_2+add_3+add_4+add_5+add_6
 }
 
 if (false) {
