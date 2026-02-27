@@ -9,6 +9,7 @@ a {
 
 .HughJass {
   background-color: blueviolet;
+  color: silver;
 }
 
 .headings {
@@ -47,4 +48,14 @@ a {
 a {
   text-decoration: none;
   font-size: 15px;
+}
+
+h5 {
+  color:white;
+  font-weight: normal;
+  font-family: Arial;
+}
+
+h3 {
+  color: brown;
 }
