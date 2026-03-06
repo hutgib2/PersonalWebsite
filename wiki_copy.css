@@ -1,0 +1,11 @@
+.wiki_link {
+  color:rgb(0, 0, 255);
+  font-style: italic;
+  font-family: Arial;
+}
+
+.wiki_bold {
+  color:rgb(0, 0, 0);
+  font-style: bold;
+  font-family: Arial;
+}
