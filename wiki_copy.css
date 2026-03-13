@@ -2,10 +2,26 @@
   color:rgb(0, 0, 255);
   font-style: italic;
   font-family: Arial;
+  margin-left: 16px;
 }
 
 .wiki_bold {
   color:rgb(0, 0, 0);
   font-style: bold;
   font-family: Arial;
+}
+
+.container {
+  display: flex;
+}
+
+.container div {
+  margin: 10px;
+  padding: 0px;
+  font-size: 24px;
+}
+
+.info_row {
+  display: flex;
+  margin: 0px;
 }
