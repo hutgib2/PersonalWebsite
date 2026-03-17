@@ -12,13 +12,21 @@ const swap_func = () => {
 }
 
 // the value will be 0
-console.log("the value of var is: " + swap)
-swap_func()
+// console.log("the value of var is: " + swap)
 // the value will be 1
-console.log("the value of var is: " + swap)
+// console.log("the value of var is: " + swap)
 // // // // // // // // // // // // // // // // // // // // // // // // // // // //
 var lightbulb = 'off'
 
 const switching_lightbulb = () => {
-    
+    if (lightbulb === 'off') { 
+        lightbulb = 'on'
+    }
+    else {
+        lightbulb = 'off'
+    }
 }
+
+console.log("the lightbulb is turned " + lightbulb)
+switching_lightbulb()
+console.log("the lightbulb is turned " + lightbulb)

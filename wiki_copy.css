@@ -1,0 +1,32 @@
+.wiki_link {
+  color:rgb(0, 0, 255);
+  font-style: italic;
+  font-family: Arial;
+  margin-left: 16px;
+  font-size: 12px;
+}
+
+.wiki_bold {
+  color:rgb(0, 0, 0);
+  font-weight: bolder;
+  font-family: Arial;
+}
+
+
+.container div {
+  margin: 8px;
+  padding: 0px;
+  font-size: 24px;
+}
+
+.info_row {
+  display: flex;
+  margin: 0px;
+  font-size: 16px;
+  /* display flex makes its children horizontal and not vertical */
+}
+
+.wiki_not_bold {
+  color:rgb(0, 0, 0);
+  font-family: Arial;
+}
