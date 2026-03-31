@@ -61,3 +61,10 @@ border-width: 2px;
 border-color: gray;
 }
 
+.info_text {
+border-style:solid;
+border-width: 2px;
+border-color: rgb(255, 150, 150);
+}
+
+
