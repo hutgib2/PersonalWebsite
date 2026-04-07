@@ -11,6 +11,7 @@
   font-family: Arial;
   margin-left: 8px;
   font-size: 24px;
+  text-align: center;
 }
 
 .wiki_bold {
@@ -33,6 +34,7 @@
   margin: 0px;
   font-size: 16px;
   /* display flex makes its children horizontal and not vertical */
+  justify-content: center;
 }
 
 .wiki_not_bold {
@@ -40,6 +42,7 @@
   font-family: Arial;
   margin-left: 16px;
   font-size: 12px;
+  text-align: center;
 }
 
 .left_side_link {
@@ -58,13 +61,18 @@
 .box {
   border-style: solid;
 border-width: 2px;
-border-color: gray;
+border-color: rgb(100, 100, 100);
 }
 
-.info_text {
+.pink_box {
 border-style:solid;
-border-width: 2px;
-border-color: rgb(255, 150, 150);
+border-width: 1px;
+border-color: rgb(255, 230, 230);
+background-color: rgb(255, 230, 230);
+text-align: center;
 }
 
-
+.image_alignment {
+  display: flex;
+  justify-content: center;
+}
