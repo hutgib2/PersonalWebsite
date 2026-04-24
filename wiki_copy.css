@@ -39,6 +39,12 @@
   justify-content: center;
 }
 
+.info_row h5,
+.info_row h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .wiki_not_bold {
   color:rgb(0, 0, 0);
   font-family: Arial;
