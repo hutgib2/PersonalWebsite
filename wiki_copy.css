@@ -37,9 +37,15 @@
 .info_row {
   display: flex;
   margin: 0px !important;
-  font-size: 16px;
+  font-size: 88%;
+  line-height: 1.5em;
   /* display flex makes its children horizontal and not vertical */
   justify-content: center;
+}
+
+.info_row p {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .wiki_not_bold {
